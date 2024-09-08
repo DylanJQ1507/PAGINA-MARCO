@@ -8,10 +8,41 @@
     margin: 20px;
     margin: 0;
     background-image: url("https://confidencial.digital/wp-content/uploads/2022/11/Atenas-768x532.jpg");
-    background-size:contain;
+    background-size: contain;
     background-position: center;
     background-attachment: fixed;
-    
+
+}
+.btnp{
+    background-color: transparent !important;
+    color: whitesmoke !important;
+}
+input::placeholder {
+    color: whitesmoke !important;
+    /* Define el color que quieras */
+    opacity: 1;
+    /* Asegura que el color sea completamente visible */
+}
+
+textarea::placeholder {
+    color: whitesmoke !important;
+    /* Define el color que quieras */
+    opacity: 1;
+    /* Asegura que el color sea completamente visible */
+}
+
+form input,
+textarea {
+    background-color: transparent !important;
+    color: whitesmoke !important;
+}
+
+/* Asegura que el label no cambie el fondo */
+
+.boxform {
+    background-image: url("https://media.istockphoto.com/id/1442890905/es/foto/verde-naturaleza-borroso-bokeh-fondo.jpg?s=612x612&w=0&k=20&c=RWpGU6g9p1o030Bb7kBWfN9R6ZKtdaajuoQCdY7y9Kg=");
+    background-size: cover;
+
 }
 
 .opaco {
@@ -26,6 +57,7 @@
         height: 150px;
         /* Ajusta la altura para pantallas más pequeñas */
     }
+
 }
 
 /* Media query para pantallas medianas */
@@ -115,10 +147,12 @@ footer {
     background-color: #d1beba !important;
     transition: all 400ms ease;
 }
-.servicio:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+
+.servicio:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     transform: translateY(-4%);
 }
+
 .btn-wsp {
     position: fixed;
     width: 55px;
