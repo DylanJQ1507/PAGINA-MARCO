@@ -113,8 +113,12 @@ footer {
 
 .servicio {
     background-color: #d1beba !important;
+    transition: all 400ms ease;
 }
-
+.servicio:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-4%);
+}
 .btn-wsp {
     position: fixed;
     width: 55px;
