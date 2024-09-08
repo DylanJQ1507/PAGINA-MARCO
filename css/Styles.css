@@ -8,9 +8,10 @@
     margin: 20px;
     margin: 0;
     background-image: url("https://confidencial.digital/wp-content/uploads/2022/11/Atenas-768x532.jpg");
-    background-size: contain;
+    background-size:contain;
     background-position: center;
     background-attachment: fixed;
+    
 }
 
 .opaco {
@@ -22,7 +23,7 @@
 @media only screen and (max-width: 600px) {
     .box {
         background-size: contain;
-        height: 200px;
+        height: 150px;
         /* Ajusta la altura para pantallas más pequeñas */
     }
 }
